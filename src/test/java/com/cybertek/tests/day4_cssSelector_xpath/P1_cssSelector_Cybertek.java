@@ -11,10 +11,10 @@ public class P1_cssSelector_Cybertek {
         //TC #1: PracticeCybertek.com_ForgotPassword WebElement verification
         //1. Open Chrome browser
         WebDriver driver = WebDriverFactory.getDriver("chrome");
-        driver.manage().window().maximize();
+       // driver.manage().window().maximize();
 
         //2. Go to http://practice.cybertekschool.com/forgot_password
-      //  driver.get("http://practice.cybertekschool.com/forgot_password");
+        driver.get("http://practice.cybertekschool.com/forgot_password");
 
         //3. Locate all the WebElements on the page using XPATH and/or CSS locator only (total of 6)
         //a. “Home” link

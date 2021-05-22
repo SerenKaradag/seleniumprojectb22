@@ -18,7 +18,7 @@ public class P0_FindElements_Practice {
         WebDriver driver = WebDriverFactory.getDriver("chrome");
         driver.manage().window().maximize();
         driver.manage().timeouts().implicitlyWait(15, TimeUnit.SECONDS); // Like Thread.sleep(500); Wait TIme
-     //   driver.get("http://practice.cybertekschool.com/forgot_password");
+        driver.get("http://practice.cybertekschool.com/forgot_password");
 
 
         //WE NEED TO CREATE A LOCATOR THAT RETURNS US ALL LINKS ON THE PAGE
@@ -35,6 +35,9 @@ public class P0_FindElements_Practice {
         int numberOfLinks = listOfLinks.size();
 
         System.out.println("numberOfLinks = " + numberOfLinks);
+
+
+
 
 
 
