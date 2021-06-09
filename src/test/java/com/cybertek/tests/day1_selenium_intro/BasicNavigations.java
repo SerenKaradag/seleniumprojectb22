@@ -1,5 +1,6 @@
 package com.cybertek.tests.day1_selenium_intro;
 
+
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -34,7 +35,6 @@ public class BasicNavigations {
 
         //putting 3 seconds of wait / stops the code 3 seconds
         //hover over add exception to method signature
-        Thread.sleep(3000);
 
          //going back using navigations
           driver.navigate().back();
